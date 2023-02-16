@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+}
+
+body {
+                    background-color: #141519;
+                    color: white;
+}
+
+
+main {
+                    max-width: 300px;
+                    height: 400px;
+                    background-color: #212832;
+                    margin: 100px auto;
+                    border-radius: 18px;
+                    padding: 24px 22px;
+
+}
+
+h2 {
+                    font-size: 24px;
+                    margin-top: 22px;
+                    line-height: 1.5;
+                    color: #f9fcfd;
+}
+
+p {
+                    font-size: 18px;
+                    color: #59606a;
+}
+
+.sliders {
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: space-between;
+
+
+}
+
+.btn {
+                    font-size: 14px;
+                    border: none;
+                    background-color: #282f39;
+                    padding: 12px 14px;
+                    border-radius: 50%;
+                    color: #59606a;
+}
+
+.btn:hover {
+                    background-color: #fc7615;
+                    color: white;
+                    cursor: pointer;
+}
+
+
+
+.btn-submit {
+                    width: 100%;
+                    display: inline;
+                    margin-top: 30px;
+                    padding: 8px 8px;
+                    background-color: #fc7615;
+                    color: white;
+                    border: none;
+                    border-radius: 25px;
+                    line-height: 1.5;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    text-align: center;
+
+}
+
+.btn-submit:hover {
+                    background-color: white;
+                    color: #fc7615;
+                    cursor: pointer;
+}
+
+.thanks-img {
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+}
+
+.thanks-selection {
+                    width: 250px;
+                    background-color: #262d37;
+                    font-size: 12px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #a17656;
+}
+
+.thanks {
+                    text-align: center;
+                    font-size: 16px;
+                    letter-spacing: .6px;
+                    line-height: 1.6;
+}
+
+.thanks-info {
+                    width: 250px;
+                    margin-top: 30px;
+                    line-height: 1.2;
+                    font-size: 12px;
+                    text-align: center;
+}
+
+@media only screen and (max-width:358px) {
+                    main {
+                                        max-width: 250px;
+                                        height: 400px;
+                                        background-color: #212832;
+                                        margin: 100px auto;
+                                        border-radius: 18px;
+                                        padding: 12px 11px;
+
+                    }
+
+                    h2 {
+                                        font-size: 16PX;
+                                        margin-top: 22px;
+                                        text-align: center;
+                                        margin-bottom: 20px;
+
+                    }
+
+                    P {
+                                        font-size: 12px;
+                                        text-align: center;
+                                        margin-top: 22px;
+                    }
+
+
+
+}
